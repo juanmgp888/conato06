@@ -8,21 +8,23 @@
 </head>
 <body>
     <h1>Conato06</h1>
-    <button id="boton01">Botón01. Si me pulsas desaparezco.</button>
-    <button id="boton02">Botón02. Si me pulsas, muestro otro botón</button>
-    <button id="boton03">Botón03. Yo no debería aparecer hasta haber sido pulsado botón02</button>
-    <br>
-      
-    <input type="button" value="boton04"/><br>
+    <div id="miBloqueBotones">
+     <button id="boton01">Botón01. Si me pulsas desaparezco.</button>
+     <button id="boton02">Botón02. Si me pulsas, muestro otro botón</button>
+     <button id="boton03">Botón03. Yo no debería aparecer hasta haber sido pulsado botón02</button>
+    </div><br>
+    <h5>-</h5>
+    <input id="boton04" type="button" value="boton04"/><br>
     <textarea cols="20" rows="5" placeholder="Área de texto"></textarea><br>
 
     <button id="superBoton">superBotón</button>
     <h3 id="txtSuperBoton">[ pulsa el superbotón click/doble click ]</h3>
 
-    <input type="text" id="miInput" placeholder="Escribe algo y te diré que tecla has pulsado. (No valen combinaciones)">
+    <input type="text" id="miInput" 
+        placeholder="Escribe y te diré qué tecla has pulsado. (No valen combinaciones)"/>
     <p id="teclaPulsada"></p>
 
-    <button id="iconoInternet"><img src="../public/images/iconoIntenet.png" width="40" height="25"></button>
+    <button id="iconoInternet"><img src="../public/images/iconoPant.png" width="40" height="35"></button>
 
 
     <script src="./javascript/index.js"></script>
